@@ -2,7 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "../styles/Home.module.css";
 import  SpeakerSection  from "../components/SpeakerSection";
-import SubHeading from "../components/SubHeading";
+import AboutSection from "../components/About/AboutSection";
 
 
 export default function Home() {
@@ -10,10 +10,7 @@ export default function Home() {
     <div>
         
       <Image className="-z-10" src={'https://i.imgur.com/AvmKsjU.jpg'}  layout='fill'/>
-      <SubHeading
-              head="About"
-          />
-
+      <AboutSection/>
     </div>
   );
 }
