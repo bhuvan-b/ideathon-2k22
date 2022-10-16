@@ -21,3 +21,12 @@
     font-family: "Consolas";
     src: url("../fonts/CONSOLA.TTF");
 }
+.subhead
+{
+font-family: 'TabernaSans-Black';
+font-size: 4rem;
+text-align: center;
+letter-spacing: 0.06em;
+color: #264653;
+margin:1rem;
+}
