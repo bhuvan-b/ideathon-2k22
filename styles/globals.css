@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
 
@@ -21,12 +22,41 @@
     font-family: "Consolas";
     src: url("../fonts/CONSOLA.TTF");
 }
-.subhead
+.subhead1
 {
-font-family: 'TabernaSans-Black';
-font-size: 4rem;
+    /* position: absolute; */
+    left: 0.04em;
+top: -3.48em;
+    font-family: 'TabernaSans-Black';
+    text-align: center;
+    letter-spacing: 0.06em;
+    z-index: 1;
+    color: #264653;
+    
+}
+.subhead2{
+position: relative;
+/* left: 26px; */
+/* top: 12px; */
+left: 0.05em;
+top: -1.725em;
+font-family: 'TabernaSans-BlackIn';
+z-index: -2;
 text-align: center;
 letter-spacing: 0.06em;
+color: #432D1D;
+}
+.subhead3{
+position: relative;
+left: 0.1em;
+top: -3.43em;
+font-family: 'TabernaSans-BlackIn';
+text-align: center;
+letter-spacing: 0.06em;
+z-index: -3;
+color: #EE7733;
+}
+=======
 color: #264653;
 margin:1rem;
 }
