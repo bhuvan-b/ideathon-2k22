@@ -8,9 +8,10 @@ import AboutSection from "../components/About/AboutSection";
 export default function Home() {
   return (
     <div>
-        
-      <Image className="-z-10" src={'https://i.imgur.com/AvmKsjU.jpg'}  layout='fill'/>
+       <div className="">
+      <LandingSection /> 
       <AboutSection/>
+
     </div>
   );
 }

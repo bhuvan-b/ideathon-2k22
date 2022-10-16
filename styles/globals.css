@@ -2,6 +2,26 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+@font-face {
+    font-family: "Taberna";
+    src: url("../fonts/TabernaSans-Black.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Med";
+    src: url("../fonts/Gilroy-Medium.ttf");
+}
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../fonts/Gilroy-Bold.ttf");
+}
+@font-face {
+    font-family: "Consolas";
+    src: url("../fonts/CONSOLA.TTF");
+}
 .subhead1
 {
     /* position: absolute; */
@@ -24,7 +44,6 @@ font-family: 'TabernaSans-BlackIn';
 z-index: -2;
 text-align: center;
 letter-spacing: 0.06em;
-
 color: #432D1D;
 }
 .subhead3{
@@ -36,4 +55,8 @@ text-align: center;
 letter-spacing: 0.06em;
 z-index: -3;
 color: #EE7733;
+}
+=======
+color: #264653;
+margin:1rem;
 }
