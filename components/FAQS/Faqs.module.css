@@ -1,0 +1,91 @@
+/* body {
+  background-color: black;
+} */
+
+.App {
+  font-family: "Copperplate", Fantasy;
+  text-align: center;
+}
+.icon_ {
+  color: white;
+  font-size: 1.3rem;
+}
+.p-5 {
+  width: 70%;
+  margin: auto;
+}
+.icon- {
+  color: black;
+  font-size: 1rem;
+}
+
+/* .flex items-center justify-between border-2 p-3 my-2 rounded-md {
+  background-color: blue;
+} */
+
+.faq {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  border: 2px solid #68d4eb;
+  color: white;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 22px;
+  background-color: black;
+  font-family: "Montserrat", sans-serif;
+}
+.faq:hover {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  background-color: #68d4eb;
+  color: black;
+}
+.faqopen {
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid #68d4eb;
+  width: 100%;
+  color: black;
+  padding: 6px;
+  margin: 10px;
+  border-radius: 22px;
+  background-color: #68d4eb;
+  font-family: "Montserrat", sans-serif;
+}
+.faq-ans {
+  border-left: 1px solid white;
+  color: white;
+  margin: 20px;
+  padding: 0px 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.secheadingfaq {
+  width: 15%;
+  margin-top: 3%;
+  border-top: 2px solid aqua;
+}
+/* .text-lg font-semibold tracking-wider cursor-pointer {
+  padding: 0px 5px;
+  width: 100vw;
+} */
+.text-xl {
+  text-align: center;
+  color: white;
+  /* font-family: Impact, fantasy; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+.text-xl span {
+  text-align: center;
+  color: #68d4eb;
+  /* font-family: Impact, fantasy; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
