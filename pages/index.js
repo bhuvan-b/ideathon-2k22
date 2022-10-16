@@ -14,6 +14,14 @@ export default function Home() {
         layout="fill"
       />
       <FaqSection />
+=======
+import LandingSection from "../components/LandingSection";
+
+export default function Home() {
+  return (
+    <div className="">
+      <LandingSection />
+
     </div>
   );
 }
