@@ -4,7 +4,8 @@ const nextConfig = {
   images:{
     domains:[
       'imgur.com',
-      "i.imgur.com"
+      "i.imgur.com",
+      "webwriterspotlight.com"
   ]
   },
   swcMinify: true,
