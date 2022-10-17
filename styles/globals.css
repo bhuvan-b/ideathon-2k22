@@ -18,6 +18,10 @@
   src: url("../fonts/Gilroy-Bold.ttf");
 }
 @font-face {
+    font-family: "Gilroy-ExBold";
+    src: url("../fonts/Gilroy-ExtraBold.ttf");
+  }
+@font-face {
   font-family: "Consolas";
   src: url("../fonts/CONSOLA.TTF");
 }
@@ -170,3 +174,35 @@ body {
     rgb(255, 255, 255) 21px
   );
 }
+
+#text {
+    /* font-family: heading; */
+    position: relative;
+    /* color: white; */
+    /* font-size: 5rem; */
+    /* z-index: 5; */
+  }
+
+#text::before {
+    content: "RELIVING THE PAST";
+    font-weight: bold;
+    /* z-index: 5; */
+    left: 0%;
+    top: 0%;
+    font-size: 2.0rem;
+    position: absolute;
+    color: #432D1D;
+    font-family: "Gilroy-ExBold", sans-serif;
+  }
+
+  #text::after {
+    content: "2K22";
+    font-weight: bold;
+    /* z-index: 5; */
+    right: 0%;
+    bottom: -10%;
+    font-size: 2.0rem;
+    position: absolute;
+    color: #432D1D;
+    font-family: "Gilroy-ExBold", sans-serif;
+  }

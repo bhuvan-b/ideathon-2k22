@@ -8,7 +8,7 @@ const SubHeading = (props) => {
             props.type == "mainhead" ? "mainhead1" : ""
           }`}
         >
-          {props.head}
+          <span>{props.head}</span>
         </div>
       </div>
       <div className="subhead2">
@@ -17,7 +17,9 @@ const SubHeading = (props) => {
             props.type == "mainhead" ? "mainhead2" : ""
           }`}
         >
-          {props.head}
+          <span id={`${props.type == "mainhead" ? "text" : ""}`}>
+            {props.head}
+          </span>
         </div>
       </div>
       <div className="subhead3">
