@@ -7,27 +7,39 @@ function SpeakerSection() {
   const speakers = [
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
     {
       name:'Ankush Singla',
-      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg'
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas'
     },
   ]
 
@@ -46,6 +58,8 @@ function SpeakerSection() {
           <SpeakerCard
             name={speaker.name}
             picture={speaker.picture}
+            Designation={speaker.Designation}
+            Company={speaker.Company}
           />
         ))
       }
