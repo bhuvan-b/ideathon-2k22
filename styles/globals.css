@@ -21,12 +21,49 @@
     font-family: "Consolas";
     src: url("../fonts/CONSOLA.TTF");
 }
-.subhead
+body{
+    background-image: url('https://i.imgur.com/AvmKsjU.jpg');
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;   
+}
+.subhead1
 {
-font-family: 'TabernaSans-Black';
-font-size: 4rem;
+    /* position: absolute; */
+    left: 0.04em;
+top: -3.48em;
+    font-family: 'TabernaSans-Black';
+    text-align: center;
+    letter-spacing: 0.06em;
+    z-index: 1;
+    color: #264653;
+    
+}
+.subhead2{
+position: relative;
+/* left: 26px; */
+/* top: 12px; */
+left: 0.05em;
+top: -1.725em;
+font-family: 'TabernaSans-BlackIn';
+z-index: -2;
 text-align: center;
 letter-spacing: 0.06em;
-color: #264653;
-margin:1rem;
+
+color: #432D1D;
+}
+.subhead3{
+position: relative;
+left: 0.1em;
+top: -3.43em;
+font-family: 'TabernaSans-BlackIn';
+text-align: center;
+letter-spacing: 0.06em;
+z-index: -3;
+color: #EE7733;
+}
+
+.ticket {
+    -webkit-mask-image: radial-gradient(circle 10px at 100% 100%, transparent 0, transparent 20px, black 21px);
+    background: radial-gradient(circle at 0% 100%,transparent 21px, rgb(255, 255, 255) 21px);
 }
