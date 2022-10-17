@@ -4,6 +4,7 @@ import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
   return (
+
     <div className="mx-40">
      
       <div>
@@ -17,6 +18,7 @@ const LandingSection = () => {
         {/* <h3 className="text-4xl text-[#432D1D] font-gilroyBold">
           REMINISCE TO IDEATE
         </h3> */}
+   
       </div>
     </div>
   );
