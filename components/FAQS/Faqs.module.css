@@ -1,0 +1,99 @@
+/* .body {
+  background-color: black;
+} */
+
+.App {
+  font-family: "Copperplate", Fantasy;
+  text-align: center;
+}
+.iconA {
+  color: white;
+  font-size: 1.7rem;
+}
+.p-5 {
+  width: 70%;
+  margin: auto;
+}
+.iconB {
+  color: white;
+  font-size: 1rem;
+}
+
+/* .flex items-center justify-between border-2 p-3 my-2 rounded-md {
+  background-color: blue;
+} */
+
+.faq {
+  display: flex;
+  width: 100%;
+  font-weight: 900 !important;
+  font-size: 34px;
+  justify-content: space-between;
+  border: 2px solid #432d1d;
+  color: #432d1d;
+  padding: 15px;
+  padding-left: 25px;
+  margin: 10px;
+  border-radius: 30px;
+  /* background-color: #fcdec0; */
+  font-family: "Montserrat", sans-serif;
+}
+.faq:hover {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+  transition-timing-function: ease-in-out;
+  background-color: #432d1d;
+  color: white;
+}
+
+.faqopen {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 900;
+  font-size: 34px;
+  border: 2px solid #432d1d;
+  width: 100%;
+  color: white;
+  padding: 15px;
+  padding-left: 25px;
+  margin: 10px;
+  border-radius: 30px;
+  background-color: #432d1d;
+  font-family: "Montserrat", sans-serif;
+}
+.faq_ans {
+  border-left: 1px solid #432d1d;
+  color: #432d1d;
+  margin: 20px;
+  padding: 0px 5px;
+  margin-top: 0px;
+  padding-top: 0px;
+  font-family: "Montserrat", sans-serif;
+}
+.secheadingfaq {
+  width: 15%;
+  margin-top: 3%;
+  border-top: 2px solid aqua;
+}
+/* .text-lg,
+font-semibold tracking-wider cursor-pointer {
+  padding: 0px 5px;
+  width: 100vw; */
+/* } */
+.text-xl {
+  text-align: center;
+  color: white;
+  /* font-family: Impact, fantasy; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  margin-bottom: 70px;
+  margin-top: 30px;
+  font-weight: 900;
+}
+.text-xl span {
+  text-align: center;
+  color: #68d4eb;
+  /* font-family: Impact, fantasy; */
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+}
