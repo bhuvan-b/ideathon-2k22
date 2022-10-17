@@ -27,12 +27,15 @@ body{
     background-repeat:   no-repeat;
     background-position: center center;   
 }
+.outlinetext{
+    -webkit-text-stroke: 0.5px #FCDEC0;
+}
 .subhead1
 {
     /* position: absolute; */
     left: 0.04em;
 top: -3.48em;
-    font-family: 'TabernaSans-Black';
+    font-family: 'Taberna';
     text-align: center;
     letter-spacing: 0.06em;
     z-index: 1;
@@ -43,9 +46,9 @@ top: -3.48em;
 position: relative;
 /* left: 26px; */
 /* top: 12px; */
-left: 0.05em;
-top: -1.725em;
-font-family: 'TabernaSans-BlackIn';
+left: 0.15em;
+top: -3.545em;
+font-family: 'Taberna';
 z-index: -2;
 text-align: center;
 letter-spacing: 0.06em;
@@ -54,15 +57,71 @@ color: #432D1D;
 }
 .subhead3{
 position: relative;
-left: 0.1em;
-top: -3.43em;
-font-family: 'TabernaSans-BlackIn';
+left: 0.3em;
+top: -7.16em;
+font-family: 'Taberna';
 text-align: center;
 letter-spacing: 0.06em;
 z-index: -3;
 color: #EE7733;
+margin-bottom: -6rem;
 }
-
+.subheadparent{
+    margin-top: 1rem;
+    margin-bottom: -1rem;
+}
+@media only screen and (max-width: 600px) {
+    .outlinetext{
+        -webkit-text-stroke: 0.3px #FCDEC0;
+    }
+    .fontsize{
+      font-size: 2.2rem;
+      
+    }
+    .subhead1
+  {
+      left: 0.04em;
+  top: -3.48em;
+  
+      
+  }
+  .subhead2{
+  left: 0.12em;
+  top: -2.05em;
+  }
+  .subhead3{
+  
+  left: 0.2em;
+  top: -4.16em;
+  margin-bottom: -4rem;
+  }
+    }
+    @media only screen and (max-width: 360px) {
+        .outlinetext{
+            -webkit-text-stroke: 0.1px #FCDEC0;
+        }
+        .fontsize{
+          font-size: 1.2rem;
+        }
+        .subhead1
+      {
+          left: 0.04em;
+      top: -3.48em;
+      
+          
+      }
+      .subhead2{
+      left: 0.08em;
+      top: -1.15em;
+      }
+      .subhead3{
+      
+      left: 0.13em;
+      top: -2.30em;
+      margin-bottom: -2.2rem;
+      }
+        }
+          
 .ticket {
     -webkit-mask-image: radial-gradient(circle 10px at 100% 100%, transparent 0, transparent 20px, black 21px);
     background: radial-gradient(circle at 0% 100%,transparent 21px, rgb(255, 255, 255) 21px);

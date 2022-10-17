@@ -4,11 +4,7 @@ import Image from "next/image";
 const LandingSection = () => {
   return (
     <div>
-      <Image
-        className="-z-10"
-        src={"https://i.imgur.com/AvmKsjU.jpg"}
-        layout="fill"
-      />
+     
       <div className="h-[100vh]">
         <h2 className="text-5xl text-[#264653] font-bold font-taberna">
           IDEATHON

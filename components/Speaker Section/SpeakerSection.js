@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import React from 'react'
+import SubHeading from '../SubHeading'
 import SpeakerCard from './SpeakerCard'
 
 function SpeakerSection() {
@@ -35,11 +36,11 @@ function SpeakerSection() {
   return (
     <div className='section image h-[500vh] relative'>
       <div className='Speaker-Seciton-Heading'>
+      <SubHeading head="SPEAKER"/>
         <h2 className="text-5xl flex p-[1vmax] justify-center items-center text-[#264653] font-bold font-['TabernaSans-Black']" >
-          SPEAKER 
+          
         </h2>
       </div>
-      <Image className="-z-10" layout='fill' style={{width:"100vw" , height:"500vh"}} src={'https://i.imgur.com/AvmKsjU.jpg'} />
       <div className='flex justify-center items-center flex-wrap'>
       {
         speakers?.map((speaker)=>(
