@@ -1,4 +1,4 @@
-/* body {
+/* .body {
   background-color: black;
 } */
 
@@ -71,8 +71,8 @@
 /* .text-lg,
 font-semibold tracking-wider cursor-pointer {
   padding: 0px 5px;
-  width: 100vw;
-} */
+  width: 100vw; */
+/* } */
 .text-xl {
   text-align: center;
   color: white;
