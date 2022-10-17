@@ -11,6 +11,7 @@ export default function Home() {
       <LandingSection />
       <AboutSection />
       <SpeakerSection />
+      <FaqSection />
     </div>
   );
 }
