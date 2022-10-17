@@ -116,44 +116,44 @@ body {
 /* Main ideathon head */
 @media only screen and (min-width: 900px) {
   .mainhead1 {
-    font-size: 10rem;
+    font-size: 9rem;
   }
   .mainhead2 {
-    font-size: 10rem;
+    font-size: 9rem;
     margin-left: 0.3rem;
-    margin-top: -6.2rem;
+    margin-top: -5.2rem;
   }
   .mainhead3 {
-    font-size: 10rem;
+    font-size: 9rem;
     margin-left: 0.5rem;
-    margin-top: -6.2rem;
+    margin-top: -5.2rem;
   }
 }
 
 /* Hiding the scrollbar */
 body {
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .mainsubparent {
-  height: 100%;
-  margin-right: -2rem;
+  /* height: 100%; */
+  /* margin-right: -2rem;
   overflow: scroll;
-  overflow-x: hidden;
+  overflow-x: hidden; */
 }
 .mainparent {
-  height: 100rem;
-  overflow: hidden;
+  /* height: 100rem; */
+  /* overflow: hidden; */
 }
 @media screen and (max-width: 1000px) {
   .mainsubparent {
-    height: 100rem;
-    margin-right: -2rem;
-    overflow: scroll;
-    overflow-x: hidden;
+    /* height: 100rem; */
+    /* margin-right: -2rem; */
+    /* overflow: scroll; */
+    /* overflow-x: hidden; */
   }
   .mainparent {
-    height: 100rem;
-    overflow: hidden;
+    /* height: 100rem; */
+    /* overflow: hidden; */
   }
 }
 

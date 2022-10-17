@@ -8,12 +8,11 @@ import AboutSection from "../components/About/AboutSection";
 export default function Home() {
   return (
     <div className="mainparent">
-        <div className="mainsubparent">
-            <LandingSection />
-            <AboutSection/>
-            <SpeakerSection/>
-       </div>
+      <div className="mainsubparent space-y-24 py-14">
+        <LandingSection />
+        <AboutSection />
+        <SpeakerSection />
+      </div>
     </div>
-    
   );
 }
