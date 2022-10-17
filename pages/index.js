@@ -7,10 +7,13 @@ import AboutSection from "../components/About/AboutSection";
 
 export default function Home() {
   return (
-    <div className="">
-      <LandingSection />
-      <AboutSection/>
-      <SpeakerSection/>
+    <div className="mainparent">
+        <div className="mainsubparent">
+            <LandingSection />
+            <AboutSection/>
+            <SpeakerSection/>
+       </div>
     </div>
+    
   );
 }
