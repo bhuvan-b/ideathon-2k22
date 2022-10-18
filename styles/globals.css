@@ -27,10 +27,14 @@
 }
 body {
   background-image: url("https://i.imgur.com/AvmKsjU.jpg");
-  background-size: cover; /* <------ */
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
 }
+
+/* body {
+    background-image: "http://api.thumbr.it/whitenoise-361x370.png?background=#e2caa4ff&noise=b07a54&density=15&opacity=15";
+} */
 
 /* Subheading css */
 .outlinetext {
@@ -117,8 +121,23 @@ body {
   }
 }
 
+
+.mainhead1 {
+    font-size: 5rem;
+  }
+  .mainhead2 {
+    font-size: 5rem;
+    margin-left: 0.3rem;
+    margin-top: -5.2rem;
+  }
+  .mainhead3 {
+    font-size: 5rem;
+    margin-left: 0.5rem;
+    margin-top: -5.2rem;
+}
+
 /* Main ideathon head */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 670px) {
   .mainhead1 {
     font-size: 9rem;
   }
@@ -133,7 +152,6 @@ body {
     margin-top: -5.2rem;
   }
 }
-
 /* Hiding the scrollbar */
 body {
   /* overflow: hidden; */
