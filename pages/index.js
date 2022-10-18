@@ -6,14 +6,20 @@ import LandingSection from "../components/LandingSection";
 import AboutSection from "../components/About/AboutSection";
 import FaqSection from "../components/FAQS/FaqSection";
 import Footer from "../components/Footer/Footer";
+import React_Timeline from "../components/Time/React_Timeline";
+import NavBar from "../components/NavBar.jsx";
 export default function Home() {
   return (
-    <div className="space-y-12">
-      <LandingSection />
-      <AboutSection />
-      <SpeakerSection />
-      <FaqSection />
-      <Footer />
-    </div>
+    <>
+      <NavBar />
+      <div className="space-y-12">
+        <LandingSection />
+        <AboutSection />
+        <React_Timeline />
+        <SpeakerSection />
+        <FaqSection />
+        <Footer />
+      </div>
+    </>
   );
 }
