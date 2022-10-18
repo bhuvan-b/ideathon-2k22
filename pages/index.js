@@ -12,7 +12,8 @@ export default function Home() {
   return (
     <>
       <NavBar />
-      <div className="space-y-12">
+    <div className="mainparent">
+      <div className="mainsubparent space-y-12">
         <LandingSection />
         <AboutSection />
         <React_Timeline />
@@ -20,6 +21,7 @@ export default function Home() {
         <FaqSection />
         <Footer />
       </div>
+     </div>
     </>
   );
 }
