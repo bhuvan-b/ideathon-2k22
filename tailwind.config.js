@@ -17,6 +17,9 @@ module.exports = {
       backgroundImage: {
         mnImg: "url('https://i.imgur.com/c89MDBb.jpeg')",
       },
+      screens: {
+        'sm': '300px',
+      },
     },
   },
   plugins: [],

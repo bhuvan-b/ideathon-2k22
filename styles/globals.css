@@ -162,17 +162,8 @@ body {
 }
 
 .ticket {
-  -webkit-mask-image: radial-gradient(
-    circle 10px at 100% 100%,
-    transparent 0,
-    transparent 20px,
-    black 21px
-  );
-  background: radial-gradient(
-    circle at 0% 100%,
-    transparent 21px,
-    rgb(255, 255, 255) 21px
-  );
+    -webkit-mask-image: radial-gradient(circle 10vh at 100% 100%, transparent 0, transparent 4vh, black 0 );
+    background: radial-gradient(circle 10vh at 0% 100%,transparent 4vh, rgb(255, 255, 255) 0);
 }
 
 #text {
