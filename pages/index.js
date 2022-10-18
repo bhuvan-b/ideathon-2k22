@@ -8,9 +8,14 @@ import FaqSection from "../components/FAQS/FaqSection";
 import Footer from "../components/Footer/Footer";
 import Timeline from "../components/Time/Timeline";
 import NavBar from "../components/NavBar.jsx";
+
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Ideathon 2K22 | IIIT Pune</title>
+        {/* <link rel="icon" href="https://i.imgur.com/oVZTwYa.png" /> */}
+      </Head>
       <NavBar />
       <div className="mainparent">
         <div className="mainsubparent space-y-12">

@@ -9,24 +9,22 @@ function AboutSection() {
       </div>
       <div className="w-[90%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
         <div className="font-consolas text-justify text-xl md:text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-          quisque eu phasellus cum. Morbi nec massa convallis et risus diam,
-          aliquam. Gravida scelerisque quisque donec aliquam enim ultrices
-          pulvinar. Purus vitae eu id habitant velit. Erat dui, vel sed vel.
-          Mollis nunc sed facilisis sed vitae id sit euismod feugiat. Proin et
-          nulla enim, porta metus turpis quam sed nulla. Proin et nulla enim,
-          porta metus turpis quam sed nulla. Proin et nulla enim, porta metus
-          turpis quam sed nulla.
+          With each generation, new ideas for innovation grew. It is crucial to
+          have an institution of higher learning to assist the young to
+          implement these ideas. The Entrepreneurship Cell at IIIT Pune is back
+          to reawaken and spark off the creative whiz inside of you! We are
+          flying back to the golden era and trailblazing our way back to 2022
+          with astounding enthusiasm and intellectual events.
         </div>
         <div className="font-consolas text-justify text-xl md:text-2xl">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
-          quisque eu phasellus cum. Morbi nec massa convallis et risus diam,
-          aliquam. Gravida scelerisque quisque donec aliquam enim ultrices
-          pulvinar. Purus vitae eu id habitant velit. Erat dui, vel sed vel.
-          Mollis nunc sed facilisis sed vitae id sit euismod feugiat. Proin et
-          nulla enim, porta metus turpis quam sed nulla. Porta metus turpis quam
-          sed nulla. Gravida scelerisque quisque donec aliquam enim ultrices
-          pulvinar.
+          Ideathon 2k22 aims at bringing together the best minds and fashioning
+          the most innovative solutions. Besides conceptualizing ideas and
+          envisaging contributing to society, Ideathon 2k22 consists of stunning
+          events and ingenious sessions with the finest entrepreneurs and
+          industrialists. We invite you to add your perspective to the table of
+          innovation and reminisce to ideate. Ideathon 2k22 will be conducted in
+          hybrid mode, granting an opportunity for all of you to have an amazing
+          time brainstorming and acquiring practical knowledge.
         </div>
       </div>
     </div>

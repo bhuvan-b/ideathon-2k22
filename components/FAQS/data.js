@@ -5,22 +5,23 @@ export const data = [
     id: 1,
     question: "What is Ideathon-2k22?",
     answer:
-      "E-Summit'22 is the flagship event of E-Cell IIIT Pune. The event focuses on events that will make students aware of the business environment and motivate them to build an innovative start-up.",
+      "Ideathon 2k22 aims at bringing together the best minds and fashioning the most innovative solutions. Besides conceptualizing ideas and envisaging contributing to society, Ideathon 2k22 consists of stunning events and ingenious sessions with the finest entrepreneurs and industrialists.",
   },
   {
     id: 2,
     question: "How many events will be there in the Ideathon-2k22?",
-    answer: "There are 14 unique events under Ideathon-2k22.",
+    answer:
+      "There are 4 major events under Ideathon-2k22 along with other side events.",
   },
   {
     id: 3,
     question: "Is there any registration fee for the events?",
-    answer: "xyz",
+    answer: "No, there isn't any registration fee for the events.",
   },
   {
     id: 4,
     question: "How to register for the event?",
-    answer: "You can register through our website or directly on Dare2Compete.",
+    answer: "You can register through our website or directly on Devfolio.",
   },
   {
     id: 5,
@@ -32,12 +33,12 @@ export const data = [
     id: 6,
     question: "What is the cash prize associated with different events?",
     answer:
-      "The total cash prize pool for Ideathon-2k22 is INR 2,00,000 with additional goodies worth INR 5,00,000. To know the prize money for individual events, click on register button.",
+      "The total cash prize pool for Ideathon-2k22 is INR 55,000 with additional goodies as well. To know the prize money for individual events, click on register button.",
   },
-  {
-    id: 7,
-    question: "What is the duration of the events?",
-    answer:
-      "The duration of the events varies from a few hours to a few days. You can check the duration of individual events by clicking the register button.",
-  },
+  // {
+  //   id: 7,
+  //   question: "What is the duration of the events?",
+  //   answer:
+  //     "The duration of the events varies from a few hours to a few days. You can check the duration of individual events by clicking the register button.",
+  // },
 ];
