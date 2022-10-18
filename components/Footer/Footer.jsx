@@ -66,7 +66,7 @@ const Footer = () => {
               ABOUT
             </a>
 
-            <a href="/#eventshelf" className={`${styles.nav_link}`}>
+            <a href="/#timeline" className={`${styles.nav_link}`}>
               TIMELINE
             </a>
 

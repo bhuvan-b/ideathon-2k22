@@ -3,7 +3,7 @@ import SubHeading from "../SubHeading";
 
 function AboutSection() {
   return (
-    <div className="content-center p-4 mb-14 sm:p-8">
+    <div id="about" className="content-center p-4 mb-14 sm:p-8">
       <div>
         <SubHeading head="ABOUT IDEATHON '22" />
       </div>
