@@ -50,7 +50,7 @@ function SpeakerSection() {
   ];
 
   return (
-    <div className="section image relative">
+    <div className="section p-4 sm:p-8 image relative">
       <div className="Speaker-Seciton-Heading">
         <SubHeading head="SPEAKER SESSIONS" />
         {/* <h2 className="text-5xl flex p-[1vmax] justify-center items-center text-[#264653] font-bold font-['TabernaSans-Black']"></h2> */}
