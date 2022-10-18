@@ -67,12 +67,12 @@ const Footer = () => {
             </a>
 
             <a href="/#eventshelf" className={`${styles.nav_link}`}>
-              EVENTS
+              TIMELINE
             </a>
 
-            <a href="/#speakers" className={`${styles.nav_link}`}>
+            {/* <a href="/#speakers" className={`${styles.nav_link}`}>
               SPEAKERS
-            </a>
+            </a> */}
 
             <a href="/#faqs" className={`${styles.nav_link}`}>
               FAQS
