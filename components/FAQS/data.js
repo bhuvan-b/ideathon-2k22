@@ -5,7 +5,7 @@ export const data = [
     id: 1,
     question: "What is Ideathon-2k22?",
     answer:
-      "E-Summit'22 is the flagship event of E-Cell IIIT Pune. The event focuses on events that will make students aware of the business environment and motivate them to build an innovative start-up.",
+      "Ideathon 2k22 aims at bringing together the best minds and fashioning the most innovative solutions. Besides conceptualizing ideas and envisaging contributing to society, Ideathon 2k22 consists of stunning events and ingenious sessions with the finest entrepreneurs and industrialists.",
   },
   {
     id: 2,
