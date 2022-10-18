@@ -6,46 +6,51 @@ import SpeakerCard from "./SpeakerCard";
 function SpeakerSection() {
   const speakers = [
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
     },
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
+
     },
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
+
     },
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
+
     },
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
+
     },
     {
-      name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
-      Designation: "Co-founder",
-      Company: "CodingNinjas",
+      name:'Ankush Singla',
+      picture : 'https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg',
+      Designation:'Co-founder' ,
+      Company : 'CodingNinjas',
+      LinkedIn: 'https://www.linkedin.com/in/ankushsingla/'
+
     },
   ];
 
@@ -62,6 +67,7 @@ function SpeakerSection() {
             picture={speaker.picture}
             Designation={speaker.Designation}
             Company={speaker.Company}
+            LinkedIn={speaker.LinkedIn}
           />
         ))}
       </div>
