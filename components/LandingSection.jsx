@@ -1,30 +1,24 @@
 import React from "react";
 import Image from "next/image";
+import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
   return (
     <div className="">
-      <Image
-        className="-z-10"
-        src={"https://i.imgur.com/AvmKsjU.jpg"}
-        layout="fill"
-      />
-
-      <div className="flex justify-center ">
-        <div className="w-75 mt-24 ">
-          <div className="text-4xl -mb-14 text-[#432D1D] font-gilroyBold">
-            REMINISCE TO IDEATE
-          </div>
-          <div className="text-[10rem] text-[#264653] font-bold font-taberna">
-            IDEATHON
-          </div>
-          <div className="text-right -mt-10 text-4xl text-[#432D1D] font-gilroyBold">
-            2K22
-          </div>
-        </div>
+      <div className="mt-20">
+        {/* <h3 className="text-3xl text-[#432D1D] font-gilroyBold ml-[27rem] -mb-10 mt-10">
+          RELIVING THE PAST
+        </h3> */}
+        <SubHeading type="mainhead" head="IDEATHON"></SubHeading>
+        {/* <h3 className="text-3xl text-right text-[#432D1D] font-gilroyBold mr-[27rem] -mt-28">
+          2K22
+        </h3> */}
+        {/* <h3 className="text-4xl text-[#432D1D] font-gilroyBold">
+          REMINISCE TO IDEATE
+        </h3> */}
       </div>
-      <div className="flex img-fluid -mt-10">
-        <img className="" src="https://i.imgur.com/OSxeX43.png" alt="" />
+      <div className="mt-8">
+        <img className="" src="https://i.imgur.com/trZs8Ty.png" alt="" />
       </div>
     </div>
   );
