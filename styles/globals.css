@@ -25,11 +25,22 @@
   font-family: "Consolas";
   src: url("../fonts/CONSOLA.TTF");
 }
-body {
+/* body {
   background-image: url("https://i.imgur.com/AvmKsjU.jpg");
-  background-size: cover; /* <------ */
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center center;
+} */
+
+body {
+    /* background-color: #e0c594;
+background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
+/* background-color: #e0c594; */
+/* background-image: url("https://www.transparenttextures.com/patterns/absurdity.png"); */
+/* background-color: #e0c594;
+background-image: url("https://www.transparenttextures.com/patterns/blizzard.png"); */
+background-color: #e0c594;
+background-image: url("https://www.transparenttextures.com/patterns/clean-textile.png");
 }
 
 /* Subheading css */
@@ -117,8 +128,23 @@ body {
   }
 }
 
+
+.mainhead1 {
+    font-size: 5rem;
+  }
+  .mainhead2 {
+    font-size: 5rem;
+    margin-left: 0.3rem;
+    margin-top: -2.8rem;
+  }
+  .mainhead3 {
+    font-size: 5rem;
+    margin-left: 0.5rem;
+    margin-top: -2.8rem;
+}
+
 /* Main ideathon head */
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 670px) {
   .mainhead1 {
     font-size: 9rem;
   }
@@ -133,20 +159,20 @@ body {
     margin-top: -5.2rem;
   }
 }
-
 /* Hiding the scrollbar */
 body {
   /* overflow: hidden; */
 }
 .mainsubparent {
   /* height: 100%; */
-  /* margin-right: -2rem;
-  overflow: scroll;
-  overflow-x: hidden; */
+  /* margin-right: 0rem; */
+    /* overflow: scroll; */
+  /* overflow-x: hidden; */
 }
+
 .mainparent {
   /* height: 100rem; */
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 @media screen and (max-width: 1000px) {
   .mainsubparent {
@@ -174,13 +200,15 @@ body {
     /* z-index: 5; */
   }
 
+
+
 #text::before {
     content: "RELIVING THE PAST";
     font-weight: bold;
     /* z-index: 5; */
     left: 0%;
     top: 0%;
-    font-size: 2.0rem;
+    font-size: 1.0rem;
     position: absolute;
     color: #432D1D;
     font-family: "Gilroy-ExBold", sans-serif;
@@ -192,8 +220,18 @@ body {
     /* z-index: 5; */
     right: 0%;
     bottom: -10%;
-    font-size: 2.0rem;
+    font-size: 1.0rem;
     position: absolute;
     color: #432D1D;
     font-family: "Gilroy-ExBold", sans-serif;
+  }
+
+  @media only screen and (min-width: 670px) {
+
+    #text::before {
+        font-size: 2.0rem;
+    }
+    #text::after {
+        font-size: 2.0rem;
+    }
   }
