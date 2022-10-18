@@ -9,16 +9,18 @@ export default function FaqSection() {
 
   return (
     <div className="p-4 flex flex-col justify-center items-center">
-      <div className="sm:w-3/4 w-[100%] bg-[#FDEC0] font-Montserrat" id="faqs">
+      <div className="sm:w-3/4 w-[100%] bg-[#FDEC0] space-y-14" id="faqs">
         {/* <div className="p-2 pb-14 text-center font-Montserrat font-bold text-4xl md:text-6xl flex flex-col items-center justify-center"> */}
         <div>
           <SubHeading head="FAQs" />
         </div>
         {/* <hr className="secheadingfaq" /> */}
         {/* </div> */}
-        {questions.map((question) => (
-          <SingleQuestion {...question} key={question.id} />
-        ))}
+        <div>
+          {questions.map((question) => (
+            <SingleQuestion {...question} key={question.id} />
+          ))}
+        </div>
       </div>
     </div>
   );

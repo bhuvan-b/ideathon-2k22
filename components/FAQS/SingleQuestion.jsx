@@ -8,12 +8,14 @@ export default function SingleQuestion({ question, answer }) {
 
   return (
     <>
-      <div>
+      <div className="font-gilroy">
         <div
           onClick={() => setShowAnswer(!showAnswer)}
           className={showAnswer ? `${styles.faqopen}` : `${styles.faq}`}
         >
-          <h2 className="text-lg  tracking-wider cursor-pointer">{question}</h2>
+          <h2 className=" text-lg  tracking-wider cursor-pointer">
+            {question}
+          </h2>
           {showAnswer ? (
             <button>
               <FaMinus className={`${styles.iconB}`} />

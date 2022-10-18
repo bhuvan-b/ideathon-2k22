@@ -3,7 +3,7 @@
 } */
 
 .App {
-  font-family: "Copperplate", Fantasy;
+  /* font-family: 'Montserrat', sans-serif; */
   text-align: center;
 }
 .iconA {
@@ -33,10 +33,10 @@
   color: #432d1d;
   padding: 15px;
   padding-left: 25px;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 30px;
   /* background-color: #fcdec0; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 .faq:hover {
   transition-property: background-color;
@@ -56,10 +56,10 @@
   color: white;
   padding: 15px;
   padding-left: 25px;
-  margin: 10px;
+  /* margin: 10px; */
   border-radius: 30px;
   background-color: #432d1d;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 .faq_ans {
   border-left: 1px solid #432d1d;
@@ -68,7 +68,7 @@
   padding: 0px 5px;
   margin-top: 0px;
   padding-top: 0px;
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
 }
 .secheadingfaq {
   width: 15%;
@@ -84,7 +84,7 @@ font-semibold tracking-wider cursor-pointer {
   text-align: center;
   color: white;
   /* font-family: Impact, fantasy; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 40px;
   margin-bottom: 70px;
   margin-top: 30px;
@@ -94,6 +94,6 @@ font-semibold tracking-wider cursor-pointer {
   text-align: center;
   color: #68d4eb;
   /* font-family: Impact, fantasy; */
-  font-family: "Montserrat", sans-serif;
+  /* font-family: "Montserrat", sans-serif; */
   font-size: 40px;
 }

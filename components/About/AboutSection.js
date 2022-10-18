@@ -7,7 +7,7 @@ function AboutSection() {
       <div>
         <SubHeading head="ABOUT IDEATHON '22" />
       </div>
-      <div className="w-4/5 mx-auto space-y-8 mt-8">
+      <div className="w-[90%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
         <div className="font-consolas text-justify text-xl md:text-2xl">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis
           quisque eu phasellus cum. Morbi nec massa convallis et risus diam,
