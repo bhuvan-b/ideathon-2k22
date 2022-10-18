@@ -1,0 +1,63 @@
+.navbarBrand {
+  /* font-family: "Gilroy"; */
+  /* font-size: 1.8em !important; */
+  /* font-weight: ; */
+  color: rgba(67, 45, 29, 1);
+  padding: 0px !important;
+}
+
+.navbarBrand:hover {
+  color: rgba(67, 45, 29, 1);
+}
+
+/* .navbar {
+  border-bottom: 1px solid #BBBBBB;
+} */
+
+.navLink {
+  font-weight: bold;
+  /* font-size: 14px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #432d1d;
+  padding: 20px 0px;
+  margin: 0px 0px;
+  display: inline-block;
+  position: relative;
+  /* opacity: 0.75; */
+  /* font-family: "Montserrat", sans-serif; */
+}
+
+.navLink:hover {
+  opacity: 1;
+  color: rgba(38, 70, 83, 1);
+  /* color: aqua; */
+}
+
+.navLink::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: rgba(38, 70, 83, 1);
+}
+
+.navLinkLtr::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+.navLinkLtr:hover::before {
+  width: 100%;
+}
+
+.Register {
+  color: rgba(67, 45, 29, 1);
+  border: 2px solid rgba(67, 45, 29, 1);
+  /* font-size: 1em; */
+}
+
+.Register:hover {
+  background-color: rgba(67, 45, 29, 1);
+  color: white;
+}
