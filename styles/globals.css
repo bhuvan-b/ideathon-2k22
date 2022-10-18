@@ -32,6 +32,10 @@
   background-position: center center;
 } */
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     /* background-color: #e0c594;
 background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png"); */
