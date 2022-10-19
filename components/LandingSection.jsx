@@ -17,8 +17,11 @@ const LandingSection = () => {
           REMINISCE TO IDEATE
         </h3> */}
       </div>
-      <div className="md:mt-8 mt-28">
-        <img className="" src="https://i.imgur.com/trZs8Ty.png" alt="" />
+      <div className="hidden md:inline md:mt-8 mt-28">
+        <img className="carImg" src="https://i.imgur.com/trZs8Ty.png" alt="" />
+      </div>
+      <div className="md:hidden pt-10 md:mt-8 mt-28">
+        <img className="carImg" src="https://i.imgur.com/LPyMehN.png" alt="" />
       </div>
     </div>
   );
