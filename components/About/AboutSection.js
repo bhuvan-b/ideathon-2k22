@@ -11,7 +11,7 @@ function AboutSection() {
         <SubHeading head="ABOUT " />
         <SubHeading head="IDEATHON '22" />
       </div>
-      <div className="w-[90%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
+      <div className="w-[100%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
         <div className="font-consolas text-justify text-xl md:text-2xl">
           With each generation, new ideas for innovation grew. It is crucial to
           have an institution of higher learning to assist the young to

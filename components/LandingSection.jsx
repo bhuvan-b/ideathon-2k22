@@ -4,7 +4,7 @@ import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
   return (
-    <div className="">
+    <div className="pt-8">
       <div className="mt-20">
         {/* <h3 className="text-3xl text-[#432D1D] font-gilroyBold ml-[27rem] -mb-10 mt-10">
           RELIVING THE PAST

@@ -72,7 +72,7 @@ const React_Timeline = () => {
         </h4>
         <p>User Experience, Visual Design</p> */}
         <h1 className="font-bold font-gilroy text-xl">
-          Breaking Coneventions-1
+          Breaking Conventions-1
         </h1>
       </VerticalTimelineElement>
       <VerticalTimelineElement
