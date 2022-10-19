@@ -22,7 +22,7 @@ export default function Home() {
           <LandingSection />
           <AboutSection />
           <Timeline />
-          <SpeakerSection />
+          {/* <SpeakerSection /> */}
           <FaqSection />
           <Footer />
         </div>
