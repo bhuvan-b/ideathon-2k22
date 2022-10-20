@@ -68,6 +68,7 @@ const React_Timeline = () => {
           // icon={<SchoolIcon />}
         >
           {/* <h3 className="vertical-timeline-element-title">
+
           Content Marketing for Web, Mobile and Social Media
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Online Course</h4>
