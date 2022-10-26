@@ -5,11 +5,11 @@ function AboutSection() {
   return (
     <div id="about" className="content-center p-4 mb-14 sm:p-8">
       <div className="hidden md:inline">
-        <SubHeading head="ABOUT IDEATHON '22" />
+        <SubHeading head="ABOUT IDEATHON 2k22" />
       </div>
       <div className="md:hidden">
         <SubHeading head="ABOUT " />
-        <SubHeading head="IDEATHON '22" />
+        <SubHeading head="IDEATHON 2k22" />
       </div>
       <div className="w-[100%] md:w-4/5 mx-auto space-y-8 mt-8 text-[#432d1d]">
         <div className="font-consolas text-justify text-xl md:text-2xl">
