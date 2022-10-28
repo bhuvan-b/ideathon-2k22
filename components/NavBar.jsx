@@ -5,6 +5,17 @@ import Link from "next/link";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+}, []);
+
   return (
     <div className="w-full">
       <nav className="">
@@ -69,14 +80,21 @@ function NavBar() {
               </div>
               <div>
                 <Link href="">
-                  <a
+                  {/* <a
                     target="_blank"
                     type="submit"
                     className={` font-semibold font-gilroy tracking-wider rounded-full m-2 py-1 md:py-2 px-3 text-xs lg:text-[1.1rem] transition duration-150 ease-in-out ${styles.Register}`}
                   >
                     REGISTER NOW
-                  </a>
+                  </a> */}
+                  <div className={styles.test}>
+ <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
+                </div>
                 </Link>
+                {/* <div className={styles.test}>
+ <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
+                </div> */}
+               
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -124,6 +142,15 @@ function NavBar() {
               </button>
             </div>
           </div>
+        </div>
+
+        
+        <div className="md:hidden">
+          <div className="w-3/5 mx-auto" >
+                       <div className="apply-button"
+  data-hackathon-slug="ideathon-2k22" data-button-theme="dark" ></div>
+          </div>
+
         </div>
 
         <Transition

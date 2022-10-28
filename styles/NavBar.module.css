@@ -61,3 +61,13 @@
   background-color: rgba(67, 45, 29, 1);
   color: white;
 }
+
+#apply-button {
+  width: 200px !important;
+}
+
+@media screen and (max-width: 760px) {
+  .test {
+    display: none;
+  }
+}
