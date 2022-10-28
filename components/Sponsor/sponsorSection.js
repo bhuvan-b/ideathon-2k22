@@ -30,7 +30,7 @@ function SponsorSection() {
                   </a>
                 </div> */}
                 <div className="w-[45%] px-4 md:w-[20%] logo">
-                  <a href="https://devfolio.co/" target="_blank">
+                  <a href="https://devfolio.co/" target="_blank" rel="noopener noreferrer">
                     <img
                       src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
                       alt="Devfolio"
