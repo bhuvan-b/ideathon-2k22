@@ -14,8 +14,13 @@ function SponsorSection() {
               {/* <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
                 PLATINUM
               </div> */}
+
+
               {/* <div className=" grid md:grid-cols-3  place-items-center space-y-8 md:space-y-0"> */}
+              {/* Added below div since there was only one element. Remove after adding other sponsors */}
               <div className=" grid place-items-center">
+              
+              
                 {/* <div className="w-[70%] px-4 md:w-[100%] logo">
                   <a href="https://www.geeksforgeeks.org/" target="_blank">
                     <img
