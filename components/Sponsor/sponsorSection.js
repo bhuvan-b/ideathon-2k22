@@ -11,33 +11,159 @@ function SponsorSection() {
         <SubHeading head="SPONSORS" />
       </div>
       <div id="sponsors">
-              {/* <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
-                PLATINUM
-              </div> */}
+        {/* <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
+          PLATINUM
+        </div>
 
+        <div className=" grid md:grid-cols-3  place-items-center space-y-8 md:space-y-0"> */}
+        {/* Added below div since there was only one element. Remove after adding other sponsors */}
+        {/* <div className=" grid place-items-center"> */}
+        {/* 
+          <div className="w-[70%] px-4 md:w-[100%] logo">
+            <a
+              href="https://polygon.technology"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://i.ibb.co/RPPbfv4/polygon-logo-99647ca.png"
+                alt="Polygon"
+              />
+            </a>
+          </div>
+          <div className="w-[45%] px-4 md:w-[20%] logo">
+            <a
+              href="https://devfolio.co/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
+                alt="Devfolio"
+              />
+            </a>
+          </div>
 
-              {/* <div className=" grid md:grid-cols-3  place-items-center space-y-8 md:space-y-0"> */}
-              {/* Added below div since there was only one element. Remove after adding other sponsors */}
-              <div className=" grid place-items-center">
-              
-              
-                {/* <div className="w-[70%] px-4 md:w-[100%] logo">
-                  <a href="https://www.geeksforgeeks.org/" target="_blank">
-                    <img
-                      src="https://isb.alienbrains.in/static/media/gg-logo.d5ed8144.png"
-                      alt="GeeksForGeeks"
-                    />
-                  </a>
-                </div> */}
-                <div className="w-[45%] px-4 md:w-[20%] logo">
-                  <a href="https://devfolio.co/" target="_blank" rel="noopener noreferrer">
-                    <img
-                      src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
-                      alt="Devfolio"
-                    />
-                  </a>
+          <div className="space-y-8 px-8">
+            <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
+              GOLD
+            </div>
+            <div className="px-4 pt-8 grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
+              <div className="w-[65%] md:w-[] logo">
+                <a href="https://pokerstreet.in/" target="_blank">
+                  <img
+                    src="https://i.ibb.co/Hhp2PBP/logo-1.png"
+                    alt="PokerStreet"
+                  />
+                </a>
+              </div>
+              <div className="w-[35%] md:w-[] logo">
+                <a href="https://www.stockgro.club/" target="_blank">
+                  <img
+                    src="https://i.ibb.co/hZ3Sr2K/Stock-Gro-logo-Black-Font-No-background.png"
+                    alt="StockGro"
+                  />
+                </a>
+              </div>
+              <div className="w-[65%] md:w-[] logo">
+                <a href="https://rosenfeldmedia.com/" target="_blank">
+                  <img
+                    src="https://i.ibb.co/Y7HF2GM/RM-Logo-logotype.png"
+                    alt="RosenfeldMedia"
+                  />
+                </a>
+              </div>
+            </div>
+          </div> */}
+
+        <div className="flex justify-center items-center">
+          <div className="flex flex-col justify-center text-center items-center py-8 w-[100%] lg:w-[90%]">
+            {/* <div className="space-y-24 pt-24"> */}
+              <div className="space-y-8 px-8">
+                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                  PLATINUM
                 </div>
-                {/* <div className="w-[70%] px-4 md:w-[90%] logo">
+                <div className=" grid md:grid-cols-2  place-items-center space-y-8 md:space-y-0">
+                  <div className="w-[70%] px-4 md:w-[70%] logo">
+                    <a
+                      href="https://polygon.technology"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/z5LNnM2/Polygon-blockchain-logo.png"
+                        alt="Polygon"
+                        width={900}
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[70%] px-4 md:w-[70%] logo">
+                    <a
+                      href="https://devfolio.co/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
+                        alt="Devfolio"
+                      />
+                    </a>
+                  {/* </div> */}
+                </div>
+              </div>
+
+              <div className="space-y-8 px-8 pt-4">
+                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                  GOLD
+                </div>
+                <div className="px-4  grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
+                  <div className="w-[75%] md:w-[] logo">
+                    <a
+                      href="https://replit.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/vJMw1Jb/replit-logo.png"
+                        alt="Replit"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[90%] md:w-[] logo">
+                    <a
+                      href="https://solana.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/ZxFVhKq/Solana-SOL.png"
+                        alt="Solana"
+                        width={900}
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[90%] md:w-[] logo">
+                    <a
+                      href="https://filecoin.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/jrPm4FD/68747470733a2f2f6261667962656968756b3368737936643433646e333674716e76663674767a6c6569696a643569646266.png"
+                        alt="Filecoin"
+                        width={700}
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* </div> */}
+          {/* </div> */}
+          {/* </div> */}
+
+          {/* <div className="w-[70%] px-4 md:w-[90%] logo">
                   <a href="https://www.finlatics.com/" target="_blank">
                     <img
                       src="https://i.ibb.co/BrsTf5J/Finlatics-color-logo-with-background.png"
@@ -162,37 +288,7 @@ function SponsorSection() {
                 </div>
               </div>
             </div>
-            <div className="space-y-8 px-8">
-              <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
-                GOLD
-              </div>
-              <div className="px-4 pt-8 grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
-                <div className="w-[65%] md:w-[] logo">
-                  <a href="https://pokerstreet.in/" target="_blank">
-                    <img
-                      src="https://i.ibb.co/Hhp2PBP/logo-1.png"
-                      alt="PokerStreet"
-                    />
-                  </a>
-                </div>
-                <div className="w-[35%] md:w-[] logo">
-                  <a href="https://www.stockgro.club/" target="_blank">
-                    <img
-                      src="https://i.ibb.co/hZ3Sr2K/Stock-Gro-logo-Black-Font-No-background.png"
-                      alt="StockGro"
-                    />
-                  </a>
-                </div>
-                <div className="w-[65%] md:w-[] logo">
-                  <a href="https://rosenfeldmedia.com/" target="_blank">
-                    <img
-                      src="https://i.ibb.co/Y7HF2GM/RM-Logo-logotype.png"
-                      alt="RosenfeldMedia"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
+            
             <div className="space-y-8 px-8">
               <div className="text-white text-3xl md:text-4xl font-Montserrat font-bold">
                 SILVER
@@ -214,9 +310,9 @@ function SponsorSection() {
                     />
                   </a>
                 </div>*/}
-              </div> 
-            </div> 
-          </div>
+        </div>
+      </div>
+    </div>
   );
 }
 
