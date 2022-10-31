@@ -85,6 +85,10 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
   color: #ee7733;
   margin-bottom: -6rem;
 }
+.subhead4{
+  font-family: "Taberna";
+  color: #432d1d;
+}
 .subheadparent {
   margin-top: 1rem;
   margin-bottom: -1rem;
@@ -228,6 +232,14 @@ body {
     position: absolute;
     color: #432D1D;
     font-family: "Gilroy-ExBold", sans-serif;
+  }
+
+.logo{
+  transition: all 0.5s;
+}
+
+  .logo:hover{
+    transform: scale(1.2);
   }
 
   @media only screen and (min-width: 670px) {

@@ -4,6 +4,7 @@ import styles from "../styles/Home.module.css";
 import SpeakerSection from "../components/Speaker Section/SpeakerSection";
 import LandingSection from "../components/LandingSection";
 import AboutSection from "../components/About/AboutSection";
+import SponsorSection from "../components/Sponsor/sponsorSection";
 import FaqSection from "../components/FAQS/FaqSection";
 import Footer from "../components/Footer/Footer";
 import Timeline from "../components/Time/Timeline";
@@ -24,6 +25,7 @@ export default function Home() {
           <Timeline />
           {/* <SpeakerSection /> */}
           <FaqSection />
+          <SponsorSection />
           <Footer />
         </div>
       </div>
