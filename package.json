@@ -26,6 +26,6 @@
     "eslint-config-next": "12.3.1",
     "postcss": "^8.4.18",
     "tailwindcss": "^3.1.8"
-  },
-  "proxy":"https://ideathon-2k22-git-pranav-bhuvan-b.vercel.app"
+  }
+
 }
