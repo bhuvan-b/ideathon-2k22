@@ -9,15 +9,15 @@ import { Scroll } from "react-scroll/modules/mixins/Helpers";
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
-}, []);
+    };
+  }, []);
 
   return (
     <div className="w-full">
@@ -97,13 +97,17 @@ function NavBar() {
                     REGISTER NOW
                   </a> */}
                   <div className={styles.test}>
- <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
-                </div>
+                    <div
+                      className="apply-button"
+                      data-hackathon-slug="ideathon-2k22"
+                      data-button-theme="dark"
+                      style={{ height: "44px", width: "312px" }}
+                    ></div>
+                  </div>
                 </Link>
                 {/* <div className={styles.test}>
  <div className="apply-button" data-hackathon-slug="ideathon-2k22" data-button-theme="dark"></div>
                 </div> */}
-               
               </div>
             </div>
             <div className="-mr-2 flex md:hidden">
@@ -151,15 +155,6 @@ function NavBar() {
               </button>
             </div>
           </div>
-        </div>
-
-        
-        <div className="md:hidden">
-          <div className="w-3/5 mx-auto" >
-                       <div className="apply-button"
-  data-hackathon-slug="ideathon-2k22" data-button-theme="dark" ></div>
-          </div>
-
         </div>
 
         <Transition
