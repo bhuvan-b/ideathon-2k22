@@ -1,7 +1,10 @@
 import React, { useState } from "react";
 import { Transition } from "@headlessui/react";
 import styles from "../styles/NavBar.module.css";
+// import Link from "next/link";
+import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
+import { Scroll } from "react-scroll/modules/mixins/Helpers";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,27 +35,33 @@ function NavBar() {
                       HOME
                     </a>
                   </Link>
-                  <Link href="/#about">
-                    <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                  {/* <Link href="/#about"> */}
+                  <ScrollLink to="about" spy={true} smooth={true}>
+                    <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       ABOUT
-                    </a>
-                  </Link>
+                    </div>
+                  </ScrollLink>
+                  {/* </Link> */}
 
-                  <Link href="/#timeline">
-                    <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                  {/* <Link href=""> */}
+                  <ScrollLink to="timeline" spy={true} smooth={true}>
+                    <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       TIMELINE
-                    </a>
-                  </Link>
+                    </div>
+                  </ScrollLink>
+                  {/* </Link> */}
 
                   {/* <a href="/#speakers" className={`${styles.navLink} ${styles.navLinkLtr}`}>
 										SPEAKERS
 									</a> */}
 
-                  <Link href="/#faqs">
-                    <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                  {/* <Link href="/#faqs"> */}
+                  <ScrollLink to="faqs" spy={true} smooth={true}>
+                    <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       FAQs
-                    </a>
-                  </Link>
+                    </div>
+                  </ScrollLink>
+                  {/* </Link> */}
                   {/* <a href="/#sponsors" className={`${styles.navLink} ${styles.navLinkLtr}`}>
 										SPONSORS
 									</a> */}
@@ -147,22 +156,28 @@ function NavBar() {
                   </a>
                 </Link>
 
-                <Link href="/#about">
-                  <a className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                {/* <Link href="/#about"> */}
+                <ScrollLink to="about" spy={true} smooth={true}>
+                  <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     ABOUT
-                  </a>
-                </Link>
+                  </div>
+                </ScrollLink>
+                {/* </Link> */}
 
-                <Link href="/#timeline">
-                  <a className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                {/* <Link href="/#timeline"> */}
+                <ScrollLink to="timeline" spy={true} smooth={true}>
+                  <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     TIMELINE
-                  </a>
-                </Link>
-                <Link href="/#faqs">
-                  <a className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                  </div>
+                </ScrollLink>
+                {/* </Link> */}
+                {/* <Link href="/#faqs"> */}
+                <ScrollLink to="faqs" spy={true} smooth={true}>
+                  <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     FAQs
-                  </a>
-                </Link>
+                  </div>
+                </ScrollLink>
+                {/* </Link> */}
 
                 {/* <a
 									href="/#speakers"
