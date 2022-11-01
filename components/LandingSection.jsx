@@ -3,6 +3,17 @@ import Image from "next/image";
 import SubHeading from "./SubHeading";
 
 const LandingSection = () => {
+  React.useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
+
   return (
     <div className="pt-8 md:pt-0">
       <div className="mt-20">
@@ -16,6 +27,16 @@ const LandingSection = () => {
         {/* <h3 className="text-4xl text-[#432D1D] font-gilroyBold">
           REMINISCE TO IDEATE
         </h3> */}
+      </div>
+
+      <div className="mt-8 -mb-14 md:hidden flex">
+        <div className="mx-auto">
+          <div
+            className="apply-button"
+            data-hackathon-slug="ideathon-2k22"
+            data-button-theme="dark"
+          ></div>
+        </div>
       </div>
       <div className="hidden md:inline md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/trZs8Ty.png" alt="" />
