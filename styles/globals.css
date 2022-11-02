@@ -135,9 +135,67 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
     margin-bottom: -2.2rem;
   }
 }
-
-
 .mainhead1 {
+  font-size: 3rem;
+ }
+.mainhead2 {
+  font-size: 3rem;
+  margin-left: 0.15rem;
+  margin-top: -1.75rem;
+}
+.mainhead3 {
+  font-size: 3rem;
+  margin-left: 0.25rem;
+  margin-top: -1.8rem;
+}
+@media only screen and (min-width: 300px) {
+.mainhead1 {
+  font-size: 3.5rem;
+ }
+.mainhead2 {
+  font-size: 3.5rem;
+  margin-left: 0.15rem;
+  margin-top: -2.2rem;
+}
+.mainhead3 {
+  font-size: 3.5rem;
+  margin-left: 0.25rem;
+  margin-top: -2.2rem;
+}
+}
+@media only screen and (min-width: 358px) {
+  .mainhead1 {
+      font-size: 4.5rem;
+    }
+    .mainhead2 {
+      font-size: 4.5rem;
+      margin-left: 0.15rem;
+      margin-top: -3.15rem;
+    }
+    .mainhead3 {
+      font-size: 4.5rem;
+      margin-left: 0.3rem;
+      margin-top: -3.2rem;
+  }
+  }
+@media only screen and (min-width: 361px) {
+.mainhead1 {
+    font-size: 4.5rem;
+  }
+  .mainhead2 {
+    font-size: 4.5rem;
+    margin-left: 0.15rem;
+    margin-top: -2.31rem;
+  }
+  .mainhead3 {
+    font-size: 4.5rem;
+    margin-left: 0.3rem;
+    margin-top: -2.31rem;
+}
+}
+
+@media only screen and (min-width: 570px) {
+  .mainhead1 {
     font-size: 5rem;
   }
   .mainhead2 {
@@ -149,10 +207,26 @@ background-image: url("https://www.transparenttextures.com/patterns/clean-textil
     font-size: 5rem;
     margin-left: 0.5rem;
     margin-top: -2.8rem;
+  }
 }
-
 /* Main ideathon head */
-@media only screen and (min-width: 670px) {
+@media only screen and (min-width: 602px) {
+  .mainhead1 {
+    font-size: 5rem;
+  }
+  .mainhead2 {
+    font-size: 5rem;
+    margin-left: 0.3rem;
+    margin-top: -1.2rem;
+  }
+  .mainhead3 {
+    font-size: 5rem;
+    margin-left: 0.5rem;
+    margin-top: -1.2rem;
+  }
+}
+/* Main ideathon head */
+@media only screen and (min-width: 700px) {
   .mainhead1 {
     font-size: 9rem;
   }
@@ -242,7 +316,7 @@ body {
     transform: scale(1.2);
   }
 
-  @media only screen and (min-width: 670px) {
+  @media only screen and (min-width: 700px) {
 
     #text::before {
         font-size: 2.0rem;
@@ -251,3 +325,4 @@ body {
         font-size: 2.0rem;
     }
   }
+  
