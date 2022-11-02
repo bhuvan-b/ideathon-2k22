@@ -208,6 +208,10 @@ body {
     /* z-index: 5; */
   }
 
+  #text2 {
+    position: relative;
+  }
+
 
 
 #text::before {

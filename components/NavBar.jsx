@@ -54,6 +54,18 @@ function NavBar() {
                   </ScrollLink>
                   {/* </Link> */}
 
+                  <Link href="/events">
+                    <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                      EVENTS
+                    </a>
+                  </Link>
+
+                  {/* <Link href="/">
+                    <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                      RULEBOOK
+                    </a>
+                  </Link> */}
+
                   {/* <Link href=""> */}
                   <ScrollLink to="timeline" spy={true} smooth={true}>
                     <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -185,6 +197,12 @@ function NavBar() {
                   </div>
                 </ScrollLink>
                 {/* </Link> */}
+
+                <Link href="/events">
+                  <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                    EVENTS
+                  </div>
+                </Link>
 
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>

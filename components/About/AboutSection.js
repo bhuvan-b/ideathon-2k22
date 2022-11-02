@@ -1,5 +1,7 @@
 import React from "react";
 import SubHeading from "../SubHeading";
+import styles from "../../styles/Navbar.module.css";
+import Link from "next/link";
 
 function AboutSection() {
   return (
@@ -30,6 +32,20 @@ function AboutSection() {
           hybrid mode, granting an opportunity for all of you to have an amazing
           time brainstorming and acquiring practical knowledge.
         </div>
+      </div>
+      <div className="flex mt-6">
+        {/* <button className="mx-auto border p-2 px-3 rounded-lg border-[#432D1D] mt-4 text-lg">
+          RULEBOOK
+        </button> */}
+        <Link href="https://tinyurl.com/ideathon2k22-rulebook">
+          <a
+            target="_blank"
+            type="submit"
+            className={`mx-auto font-semibold font-gilroy tracking-wider rounded-full m-2 py-1 md:py-3 px-4 text-lg lg:text-[1.2rem] transition duration-150 ease-in-out ${styles.Register}`}
+          >
+            RULE BOOK
+          </a>
+        </Link>
       </div>
     </div>
   );
