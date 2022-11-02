@@ -16,6 +16,7 @@ const LandingSection = () => {
 
   return (
     <div className="pt-8 md:pt-0">
+
       <div className="mt-20">
         {/* <h3 className="text-3xl text-[#432D1D] font-gilroyBold ml-[27rem] -mb-10 mt-10">
           RELIVING THE PAST

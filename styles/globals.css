@@ -282,6 +282,10 @@ body {
     /* z-index: 5; */
   }
 
+  #text2 {
+    position: relative;
+  }
+
 
 
 #text::before {
@@ -325,4 +329,14 @@ body {
         font-size: 2.0rem;
     }
   }
+
+  .Register {
+    color: rgba(67, 45, 29, 1);
+    border: 2px solid rgba(67, 45, 29, 1);
+    /* font-size: 1em; */
+  }
   
+  .Register:hover {
+    background-color: rgba(67, 45, 29, 1);
+    color: white;
+  }

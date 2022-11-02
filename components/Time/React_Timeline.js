@@ -15,7 +15,7 @@ const React_Timeline = () => {
           // contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           // contentStyle={{ width: "30%" }}
           // contentArrowStyle={{ borderRight: "7px solid  rgb(33, 150, 243)" }}
-          date="27th October 2022"
+          date="1st November 2022"
           iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
           icon={<MdOutlineAppRegistration />}
         >
@@ -88,7 +88,9 @@ const React_Timeline = () => {
         </h3>
         <h4 className="vertical-timeline-element-subtitle">Certification</h4>
         <p>Creative Direction, User Experience, Visual Design</p> */}
-          <h1 className="font-bold font-gilroy text-xl">Main Event</h1>
+          <h1 className="font-bold font-gilroy text-xl">
+            Finale and Side Events
+          </h1>
         </VerticalTimelineElement>
         {/* <VerticalTimelineElement
         iconStyle={{ background: "rgba(67, 45, 29, 1)", color: "#fff" }}
