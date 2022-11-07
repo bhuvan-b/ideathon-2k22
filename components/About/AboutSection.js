@@ -1,6 +1,6 @@
 import React from "react";
 import SubHeading from "../SubHeading";
-import styles from "../../styles/Navbar.module.css";
+import styles from "../../styles/NavBar.module.css";
 import Link from "next/link";
 
 function AboutSection() {
