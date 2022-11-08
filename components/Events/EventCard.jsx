@@ -10,7 +10,7 @@ const EventCard = (props) => {
     window.scrollTo(0, 0);
     const newdata = Data.find((obj) => obj.name === props.event_name);
     setdata(newdata);
-  }, [data]);
+  }, [props.event_name]);
   return (
     <>
       {data && (
@@ -35,7 +35,11 @@ const EventCard = (props) => {
                     <span className="text-[#432d1d] ">{data.eventName}</span>
                   </div>
 
-                  <a href={data.registerLink} target="_blank">
+                  <a
+                    href={data.registerLink}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     <button
                       type="submit"
                       className={`mx-auto font-semibold font-gilroy tracking-wider rounded-full m-2 py-1 md:py-3 px-4 text-lg lg:text-[1.2rem] transition duration-150 ease-in-out Register`}

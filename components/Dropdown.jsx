@@ -2,6 +2,7 @@ import React from "react";
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import styles from "../styles/NavBar.module.css";
+import Link from "next/link";
 
 const Dropdown = () => {
   return (
@@ -20,41 +21,44 @@ const Dropdown = () => {
           <div className="py-1">
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/events/pitch2win"
-                  className={
-                    // active ? 'bg-gray-100 ' : 'text-gray-700 block px-4 py-2 text-sm'
-                    `text-gray-700 block px-4 py-2 text-sm`
-                  }
-                >
-                  Pitch2Win
-                </a>
+                <Link href="/events/pitch2win">
+                  <a
+                    className={
+                      // active ? 'bg-gray-100 ' : 'text-gray-700 block px-4 py-2 text-sm'
+                      `text-gray-700 block px-4 py-2 text-sm`
+                    }
+                  >
+                    Pitch2Win
+                  </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/events/toptalks"
-                  className={
-                    // active ? 'bg-gray-100 text-gray-900' : 'text-gray-700 block px-4 py-2 text-sm'
-                    `text-gray-700 block px-4 py-2 text-sm`
-                  }
-                >
-                  TopTalks
-                </a>
+                <Link href="/events/toptalks">
+                  <a
+                    className={
+                      // active ? 'bg-gray-100 text-gray-900' : 'text-gray-700 block px-4 py-2 text-sm'
+                      `text-gray-700 block px-4 py-2 text-sm`
+                    }
+                  >
+                    TopTalks
+                  </a>
+                </Link>
               )}
             </Menu.Item>
             <Menu.Item>
               {({ active }) => (
-                <a
-                  href="/events/aquizition"
-                  className={
-                    // active ? `bg-gray-100 text-gray-900` : `text-gray-700 block px-4 py-2 text-sm`
-                    `text-gray-700 block px-4 py-2 text-sm`
-                  }
-                >
-                  Aquizition
-                </a>
+                <Link href="/events/aquizition">
+                  <a
+                    className={
+                      // active ? `bg-gray-100 text-gray-900` : `text-gray-700 block px-4 py-2 text-sm`
+                      `text-gray-700 block px-4 py-2 text-sm`
+                    }
+                  >
+                    Aquizition
+                  </a>
+                </Link>
               )}
             </Menu.Item>
           </div>
