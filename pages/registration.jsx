@@ -5,18 +5,13 @@ import { useEffect } from "react";
 
 const registration = () => {
   useEffect(() => {
-    console.log("hi");
-    var selected = document.querySelector("iframe");
-    selected.addEventListener("load", onhandleScroll);
-    const onhandleScroll = () => {
-      console.log("hwllo");
+    document.querySelector("iframe").addEventListener("load", function () {
       window.scrollTo({
         top: 0,
         left: 0,
         behavior: "smooth",
       });
-    };
-    return () => selected.removeEventListener("scroll", onhandleScroll);
+    });
   }, []);
 
   return (
