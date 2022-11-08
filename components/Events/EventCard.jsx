@@ -1,9 +1,5 @@
 import React, { useEffect } from "react";
-// import eventIcon from "../Images/events/icons/eventicon.png";
-import NavBar from "../NavBar";
 import Link from "next/link";
-import data from "./Data";
-import SubHeading from "../SubHeading3";
 import Data from "./Data";
 import { useState } from "react";
 
@@ -14,11 +10,11 @@ const EventCard = (props) => {
     window.scrollTo(0, 0);
     const newdata = Data.find((obj) => obj.name === props.event_name);
     setdata(newdata);
-  }, []);
+  }, [data]);
   return (
     <>
       {data && (
-        <div className=" flex justify-center items-center mt-8">
+        <div className=" flex justify-center items-center lg:mt-24 mt-12">
           <div className="flex justify-center items-center ">
             <div className=" bg-[#432d1d] bg-opacity-20  backdrop-blur-2xl pb-10 rounded rounded-xl flex mt-[20px] h-fit text-white font-Montserrat font-medium  lg:w-4/5 p-8 m-4">
               <div className="flex flex-col lg:flex-row  justify-center w-full">

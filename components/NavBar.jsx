@@ -5,13 +5,9 @@ import styles from "../styles/NavBar.module.css";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { Scroll } from "react-scroll/modules/mixins/Helpers";
-import Dropdown from "./Dropdown.jsx"
-
-
-
+import Dropdown from "./Dropdown.jsx";
 
 function NavBar() {
-
   const [isOpen, setIsOpen] = useState(false);
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -25,7 +21,7 @@ function NavBar() {
   }, []);
 
   return (
-    <div className="w-full">
+    <div className="w-full absolute top-0 z-10">
       <nav className="">
         <div className=" mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-center justify-between ">
@@ -65,7 +61,7 @@ function NavBar() {
                     </a>
                   </Link> */}
 
-                <Dropdown/>
+                  <Dropdown />
 
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -210,7 +206,7 @@ function NavBar() {
                     EVENTS
                   </div>
                 </Link> */}
-<Dropdown className="px-3 py-2"/>
+                <Dropdown className="px-3 py-2" />
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">

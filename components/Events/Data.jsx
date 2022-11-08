@@ -1,6 +1,6 @@
 const Data = [
   {
-    name: "AQUIZITION",
+    name: "aquizition",
     eventIcon: "https://i.imgur.com/ghkMDKl.png",
     eventName: "AQUIZITION",
     teamSize: "1-2",

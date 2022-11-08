@@ -17,7 +17,7 @@ const registration = () => {
   return (
     <>
       <NavBar />
-      <div className="mainparent flex items-center justify-center ">
+      <div className="mt-16 mainparent flex items-center justify-center ">
         <div className="mainsubparent space-y-0 mx-auto">
           <SubHeading2 head="Registration Form"></SubHeading2>
           {/* <SubHeading2 head="Form"></SubHeading2> */}
