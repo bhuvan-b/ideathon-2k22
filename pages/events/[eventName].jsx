@@ -3,7 +3,7 @@ import EventCard from "../../components/Events/EventCard";
 import NavBar from "../../components/NavBar";
 import { useRouter } from "next/router";
 
-const eventName = () => {
+const EventName = () => {
   const router = useRouter();
   const eventName = router.query.eventName;
   console.log(eventName);
@@ -15,4 +15,4 @@ const eventName = () => {
   );
 };
 
-export default eventName;
+export default EventName;
