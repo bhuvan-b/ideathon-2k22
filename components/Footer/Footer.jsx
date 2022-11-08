@@ -15,7 +15,7 @@ const Footer = () => {
     <div>
       <div className="p-4 flex flex-col justify-center items-center">
         <div className={`${styles.lnkcls} space-x-2`}>
-          <Link href="events">
+          <Link href="https://www.instagram.com/ecell_iiitp">
             <a target="blank">
               <FontAwesomeIcon
                 icon={faInstagram}
