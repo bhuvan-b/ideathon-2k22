@@ -16,10 +16,16 @@ module.exports = {
       },
       backgroundImage: {
         mnImg: "url('https://i.imgur.com/c89MDBb.jpeg')",
+        // eventsbg:
+        //   "url('https://previews.123rf.com/images/robertsrob/robertsrob1611/robertsrob161100034/65198250-old-paper-with-film-strip-background.jpg')",
+        // eventsbg:
+        //   "url('https://previews.123rf.com/images/rogistok/rogistok1808/rogistok180800056/105741796-pedestrian-crossing-in-the-big-city-comic-cartoon-pop-art-retro-vector-illustration-drawing.jpg')",
+        eventsbg:
+          "url('https://i.ibb.co/gdrr9B8/retro-burst-background-92086-47.webp')",
       },
       screens: {
-        'sm': '300px',
-        '3xl':'1739px'
+        sm: "300px",
+        "3xl": "1739px",
       },
     },
   },
