@@ -29,6 +29,22 @@
   /* font-family: "Montserrat", sans-serif; */
 }
 
+.navLink1 {
+  cursor: pointer;
+  font-weight: bold;
+  /* font-size: 14px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #432d1d;
+  padding-bottom: 10px;
+  padding-top: 8px;
+  margin: 0px 0px;
+  display: inline-block;
+  position: relative;
+  /* opacity: 0.75; */
+  /* font-family: "Montserrat", sans-serif; */
+}
+
 .navLink:hover {
   opacity: 1;
   color: rgba(38, 70, 83, 1);

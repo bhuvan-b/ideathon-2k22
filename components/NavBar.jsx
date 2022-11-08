@@ -5,8 +5,13 @@ import styles from "../styles/NavBar.module.css";
 import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { Scroll } from "react-scroll/modules/mixins/Helpers";
+import Dropdown from "./Dropdown.jsx"
+
+
+
 
 function NavBar() {
+
   const [isOpen, setIsOpen] = useState(false);
   React.useEffect(() => {
     const script = document.createElement("script");
@@ -54,11 +59,13 @@ function NavBar() {
                   </ScrollLink>
                   {/* </Link> */}
 
-                  <Link href="/events">
+                  {/* <Link href="/events">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       EVENTS
                     </a>
-                  </Link>
+                  </Link> */}
+
+                <Dropdown/>
 
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -198,12 +205,12 @@ function NavBar() {
                 </ScrollLink>
                 {/* </Link> */}
 
-                <Link href="/events">
+                {/* <Link href="/events">
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     EVENTS
                   </div>
-                </Link>
-
+                </Link> */}
+<Dropdown className="px-3 py-2"/>
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
