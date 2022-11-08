@@ -1,6 +1,5 @@
 import React from "react";
 import SubHeading from "../SubHeading";
-import styles from "../../styles/NavBar.module.css";
 import Link from "next/link";
 
 function AboutSection() {
@@ -41,7 +40,7 @@ function AboutSection() {
           <a
             target="_blank"
             type="submit"
-            className={`mx-auto font-semibold font-gilroy tracking-wider rounded-full m-2 py-1 md:py-3 px-4 text-lg lg:text-[1.2rem] transition duration-150 ease-in-out ${styles.Register}`}
+            className={`mx-auto font-semibold font-gilroy tracking-wider rounded-full m-2 py-1 md:py-3 px-4 text-lg lg:text-[1.2rem] transition duration-150 ease-in-out Register`}
           >
             RULE BOOK
           </a>
