@@ -2,7 +2,7 @@ const Data = [
   {
     name: "aquizition",
     eventIcon: "https://i.imgur.com/ghkMDKl.png",
-    eventName: "AQUIZITION",
+    eventName: "aQUIZition",
     teamSize: "1-2",
     cashPrize: "6,500",
     eventDescription:
@@ -11,7 +11,7 @@ const Data = [
       "aQUIZition - The Business Quiz will feature a full-fledged battle between talented minds in the fields of entrepreneurship, finance, stock markets, and cryptocurrency. This is an excellent platform for proficient quiz enthusiasts to unveil their quizzing prowess and broaden their horizons by competing against the best. ",
     registerLink: "/registration",
     rulebookLink:
-      "https://drive.google.com/file/d/13S3ev1c49YEXzqJc2Gu1xBXHebwkeH19/view?usp=share_link",
+      "https://drive.google.com/file/d/1nNO8QPDvDzPO4y5E1DQUj_71QPsWZcoq/view?usp=share_link",
   },
   {
     name: "pitch2win",
@@ -25,7 +25,7 @@ const Data = [
       "Presenting and pitching are acquired skills, not innate. IDEATHON 2k22’s Pitch2Win is an event for you to hone your pitching skills. Expand your horizons and leave the audience wondering why they didn’t think of this idea before. Win their hearts and impress the investors with the right choice of words and the deal is yours. With an expert jury on our side, the only requirement from you is an amazing pitch!",
     registerLink: "/registration",
     rulebookLink:
-      "https://drive.google.com/file/d/1Klgxn0TdPsXr576XJxd8ixaR-eFzW47E/view?usp=share_link",
+      "https://drive.google.com/file/d/1JFtlg2jXkk7pWxB4GPhtavMwjPPjLwnT/view?usp=share_link",
   },
   {
     name: "toptalks",
@@ -39,7 +39,7 @@ const Data = [
       "Top Talks is a boardroom mirroring event, where numerous perspectives clash and it is of utmost importance to reach an optimal solution in the quickest, most peaceful way possible. You will be presented with a detailed case study of a business crisis. Discuss with the rest of the board members, who each have their own constraints, and arrive at the final decision together. ",
     registerLink: "/registration",
     rulebookLink:
-      "https://drive.google.com/file/d/1-bt9DLFogXzj74y9dlc4BOB32MCpWje8/view?usp=share_link",
+      "https://drive.google.com/file/d/1cFJXDIdnX6G2Z9w3g8SP3Y4VxLgnCe5P/view?usp=share_link",
   },
 ];
 
