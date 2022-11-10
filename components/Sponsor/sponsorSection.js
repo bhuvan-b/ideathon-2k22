@@ -79,35 +79,35 @@ function SponsorSection() {
         <div className="flex justify-center items-center">
           <div className="flex flex-col justify-center text-center items-center py-8 w-[100%] lg:w-[90%]">
             {/* <div className="space-y-24 pt-24"> */}
-              <div className="space-y-8 px-8">
-                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
-                  PLATINUM
+            <div className="space-y-8 px-8">
+              <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                PLATINUM
+              </div>
+              <div className=" grid md:grid-cols-2  place-items-center space-y-8 md:space-y-0">
+                <div className="w-[70%] px-4 md:w-[70%] logo">
+                  <a
+                    href="https://polygon.technology"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://i.ibb.co/z5LNnM2/Polygon-blockchain-logo.png"
+                      alt="Polygon"
+                      width={900}
+                    />
+                  </a>
                 </div>
-                <div className=" grid md:grid-cols-2  place-items-center space-y-8 md:space-y-0">
-                  <div className="w-[70%] px-4 md:w-[70%] logo">
-                    <a
-                      href="https://polygon.technology"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src="https://i.ibb.co/z5LNnM2/Polygon-blockchain-logo.png"
-                        alt="Polygon"
-                        width={900}
-                      />
-                    </a>
-                  </div>
-                  <div className="w-[70%] px-4 md:w-[70%] logo">
-                    <a
-                      href="https://devfolio.co/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
-                        alt="Devfolio"
-                      />
-                    </a>
+                <div className="w-[70%] px-4 md:w-[70%] logo">
+                  <a
+                    href="https://devfolio.co/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <img
+                      src="https://github.com/devfolioco/brand-assets/blob/main/Logo%20+%20Text%20-%20Dark/Devfolio%20-%20Dark.png?raw=true"
+                      alt="Devfolio"
+                    />
+                  </a>
                   {/* </div> */}
                 </div>
               </div>
@@ -119,16 +119,17 @@ function SponsorSection() {
                 <div className="px-4  grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
                   <div className="w-[75%] md:w-[] logo">
                     <a
-                      href="https://replit.com"
+                      href="https://aglasem.com"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
                       <img
-                        src="https://i.ibb.co/vJMw1Jb/replit-logo.png"
-                        alt="Replit"
+                        src="https://admin.googleusercontent.com/logo-scs-key1154255"
+                        alt="Aglasem"
                       />
                     </a>
                   </div>
+
                   <div className="w-[90%] md:w-[] logo">
                     <a
                       href="https://solana.com"
@@ -155,6 +156,22 @@ function SponsorSection() {
                       />
                     </a>
                   </div>
+                </div>
+                <div className="px-4  grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
+                  <div></div>
+                  <div className="w-[75%] md:w-[] logo">
+                    <a
+                      href="https://replit.com"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/vJMw1Jb/replit-logo.png"
+                        alt="Replit"
+                      />
+                    </a>
+                  </div>
+                  <div></div>
                 </div>
               </div>
             </div>
