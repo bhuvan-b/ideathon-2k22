@@ -9,6 +9,7 @@ import FaqSection from "../components/FAQS/FaqSection";
 import Footer from "../components/Footer/Footer";
 import Timeline from "../components/Time/Timeline";
 import NavBar from "../components/NavBar.jsx";
+import EventShelf from "../components/EventShelf/EventShelf";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <div className="mainsubparent space-y-12">
           <LandingSection />
           <AboutSection />
+          <EventShelf />
           <Timeline />
           {/* <SpeakerSection /> */}
           <FaqSection />

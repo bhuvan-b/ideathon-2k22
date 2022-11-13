@@ -61,6 +61,18 @@ function NavBar() {
                     </a>
                   </Link> */}
 
+                  {/* <ScrollLink to="events" spy={true} smooth={true}>
+                    <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                      EVENTS
+                    </div>
+                  </ScrollLink> */}
+
+                  {/* <ScrollLink to="events" spy={true} smooth={true}>
+                    <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                      EVENTS
+                    </div>
+                  </ScrollLink> */}
+
                   <Dropdown />
 
                   {/* <Link href="/">
@@ -201,11 +213,11 @@ function NavBar() {
                 </ScrollLink>
                 {/* </Link> */}
 
-                {/* <Link href="/events">
+                {/* <ScrollLink to="events" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     EVENTS
                   </div>
-                </Link> */}
+                </ScrollLink> */}
                 <Dropdown className="px-3 py-2" />
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
