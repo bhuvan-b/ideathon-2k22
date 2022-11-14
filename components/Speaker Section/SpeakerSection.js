@@ -8,8 +8,7 @@ function SpeakerSection() {
     {
       id: 1,
       name: "Ankush Singla",
-      picture:
-        "https://webwriterspotlight.com/sites/default/files/author%20pics/picture-36681-1621161976.jpg",
+      picture:"https://i.imgur.com/5WIBYLX.png",
       Designation: "Co-founder",
       Company: "CodingNinjas",
       LinkedIn: "https://www.linkedin.com/in/ankushsingla/",
@@ -57,7 +56,7 @@ function SpeakerSection() {
   ];
 
   return (
-    <div className="section p-4 sm:p-8 image relative">
+    <div className="section">
       <div className="Speaker-Seciton-Heading">
         <SubHeading head="SPEAKER SESSIONS" />
         {/* <h2 className="text-5xl flex p-[1vmax] justify-center items-center text-[#264653] font-bold font-['TabernaSans-Black']"></h2> */}

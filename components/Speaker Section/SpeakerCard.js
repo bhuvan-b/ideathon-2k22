@@ -3,12 +3,12 @@ import Link from "next/link";
 
 function SpeakerCard({ name, picture, Designation, Company, Linkedin }) {
   return (
-    <div className="3xl:min-w-[270px] w-[210px] min-w-[210px] min-h-[340px] flex justify-center items-center flex-col bg-white lg:m-[6vmax] sm:mx-[20vmax]  sm:my-[3vmax] px-0 pt-[0.5vmax] pb-[1vmax] ticket">
+    <div className="sm:w-[400px] tablet:w-[300px] lg:w-[220px] lg:p-[3px] xl:w-[280px] 4xl:w-[400px] flex justify-center items-center flex-col bg-white tablet:m-[6vmax] sm:m-[10px] tablet:p-[5px] lg:m-[6vmax] sm:mx-[20vmax]  ticket">
       <img className="w-[93%] h-[93%]" src={picture} />
-      <div className="flex min-h-[150px] 3xl:min-w-[210px] min-w-[180px]   mx-[5%] my-[5%] mb-[7%] flex-col px-[5%] py-[3%]  justify-center items-center border-dashed border-[1.2px] border-[#9F8772] ticket-inner">
+      <div className="flex sm:w-[200px] sm:m-[6px]  tablet:w-[210px] tablet:m-2 lg:w-[170px] lg:m-2 4xl:w-[300px]  min-h-[150px] flex-col justify-center items-center border-dashed border-[1.2px] border-[#9F8772] ticket-inner">
         <Link href={Linkedin}>
           <a target="blank">
-            <button class="bg-[#542436] p-2 my-3 mt-0 font-semibold text-white inline-flex items-center space-x-2 rounded-lg">
+            <button class="bg-[#542436] lg:p-1 p-2 my-3 mt-0 font-semibold text-white inline-flex items-center space-x-2 rounded-lg">
               <svg
                 class="w-4 h-4 fill-current"
                 role="img"
@@ -22,14 +22,14 @@ function SpeakerCard({ name, picture, Designation, Company, Linkedin }) {
             </button>
           </a>
         </Link>
-        <h1 className='sm:text-[1.3vmax] 2xl:text-[0.8vmax] flex justify-center items-center mx-auto text-[#542436] font-["Consolas"] font-[700]'>
+        <h1 className='flex tablet:text-xl  justify-center items-center mx-auto text-[#542436] font-["Consolas"] font-[700]'>
           {name}
         </h1>
         <div className="flex justify-center items-center flex-col">
-          <h3 className="text-[1.1vmax] flex justify-center items-center font-[400] text-[#363636]">
+          <h3 className="flex justify-center items-center font-[400] text-[#363636]">
             {Designation}
           </h3>
-          <h3 className="text-[1vmax] flex justify-center items-center font-[400] text-[#363636]">
+          <h3 className="flex justify-center items-center font-[400] text-[#363636]">
             {Company}
           </h3>
         </div>

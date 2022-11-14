@@ -19,7 +19,11 @@ module.exports = {
       },
       screens: {
         'sm': '300px',
-        '3xl':'1739px'
+        'tablet':'768px',
+        'lg':'1024px',
+        'xl':'1440px',
+        '3xl':'1739px',
+        '4xl':'2559px'
       },
     },
   },

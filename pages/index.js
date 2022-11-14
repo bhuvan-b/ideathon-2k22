@@ -23,7 +23,7 @@ export default function Home() {
           <LandingSection />
           <AboutSection />
           <Timeline />
-          {/* <SpeakerSection /> */}
+          <SpeakerSection />
           <FaqSection />
           <SponsorSection />
           <Footer />
