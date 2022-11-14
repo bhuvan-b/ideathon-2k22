@@ -29,7 +29,7 @@ const LandingSection = () => {
         </h3> */}
       </div>
 
-      <div className="mt-8 -mb-14 md:hidden flex">
+      <div className="mt-8 -mb-14 lg:hidden flex md:mt-2 md:mb-8">
         <div className="mx-auto">
           <div
             className="apply-button"
@@ -38,9 +38,11 @@ const LandingSection = () => {
           ></div>
         </div>
       </div>
+
       <div className="hidden md:inline md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/trZs8Ty.png" alt="" />
       </div>
+      
       <div className="md:hidden pt-10 md:mt-8 mt-28">
         <img className="carImg" src="https://i.imgur.com/LPyMehN.png" alt="" />
       </div>

@@ -6,6 +6,7 @@ import { Link as ScrollLink } from "react-scroll";
 import Link from "next/link";
 import { Scroll } from "react-scroll/modules/mixins/Helpers";
 import Dropdown from "./Dropdown.jsx";
+import Dropdown2 from "./Dropdown2.jsx";
 
 function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -40,7 +41,7 @@ function NavBar() {
                   </a>
                 </Link>
               </div>
-              <div className="hidden md:block font-gilroyBold text-[2rem] tracking-wider">
+              <div className="hidden lg:block font-gilroyBold text-[2rem] tracking-wider">
                 <div className="flex items-baseline mt-2 space-x-4 lg:space-x-8 text-[10px] lg:text-[14px] xl:text-[16px]">
                   <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
@@ -73,13 +74,15 @@ function NavBar() {
                     </div>
                   </ScrollLink> */}
 
-                  <Dropdown />
+                  <Dropdown/>
 
                   {/* <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       RULEBOOK
                     </a>
                   </Link> */}
+
+        
 
                   {/* <Link href=""> */}
                   <ScrollLink to="timeline" spy={true} smooth={true}>
@@ -137,7 +140,7 @@ function NavBar() {
                 </div> */}
               </div>
             </div>
-            <div className="-mr-2 flex md:hidden">
+            <div className="-mr-2 flex lg:hidden">
               <button
                 onClick={() => setIsOpen(!isOpen)}
                 type="button"
@@ -195,7 +198,7 @@ function NavBar() {
         >
           {(ref) => (
             <div
-              className="md:hidden backdrop-blur bg-[#e2caa4] bg-opacity-20 absolute font-gilroy tracking-wider z-10 w-full"
+              className="lg:hidden backdrop-blur bg-[#e2caa4] bg-opacity-20 absolute font-gilroy tracking-wider z-10 w-full"
               id="mobile-menu"
             >
               <div className=" px-2 pt-2 pb-3 space-y-1 sm:px-3">
@@ -218,7 +221,14 @@ function NavBar() {
                     EVENTS
                   </div>
                 </ScrollLink> */}
-                <Dropdown className="px-3 py-2" />
+                <Dropdown2 className="px-3 py-2" />
+
+                 <Link href="/SideEvents">
+                  <a className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                    SIDE EVENTS
+                  </a>
+                </Link>
+
                 {/* <Link href="/#timeline"> */}
                 <ScrollLink to="timeline" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">

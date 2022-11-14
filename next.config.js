@@ -25,6 +25,15 @@ const nextConfig = {
     ];
   },
   swcMinify: true,
+  async redirects() {
+    return [
+      {
+        source: "/events/:path*",
+        destination: "/",
+        permanent: true,
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;

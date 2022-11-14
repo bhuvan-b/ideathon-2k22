@@ -4,7 +4,7 @@ import { Menu, Transition } from "@headlessui/react";
 import styles from "../styles/NavBar.module.css";
 import Link from "next/link";
 
-const Dropdown = () => {
+const Dropdown2 = () => {
   return (
     <Menu as="div" className="relative inline-block text-left px-3 -py-2">
       <div>
@@ -61,20 +61,6 @@ const Dropdown = () => {
                 </Link>
               )}
             </Menu.Item>
-                        <Menu.Item>
-              {({ active }) => (
-                <Link href="/SideEvents">
-                  <a
-                    className={
-                      // active ? `bg-gray-100 text-gray-900` : `text-gray-700 block px-4 py-2 text-sm`
-                      `text-gray-700 block px-4 py-2 text-sm`
-                    }
-                  >
-                    Side Events
-                  </a>
-                </Link>
-              )}
-            </Menu.Item>
           </div>
         </Menu.Items>
       </Transition>
@@ -82,4 +68,4 @@ const Dropdown = () => {
   );
 };
 
-export default Dropdown;
+export default Dropdown2;
