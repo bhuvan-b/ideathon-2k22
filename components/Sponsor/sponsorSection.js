@@ -157,9 +157,20 @@ function SponsorSection() {
                     </a>
                   </div>
                 </div>
-                <div className="px-4  grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
-                  <div></div>
-                  <div className="w-[75%] md:w-[] logo">
+                <div className="px-4  grid md:grid-cols-2 place-items-center space-y-8 md:space-y-0">
+                  <div className="w-[75%] md:w-[55%] logo">
+                    <a
+                      href="https://www.finlatics.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.ibb.co/BrsTf5J/Finlatics-color-logo-with-background.png"
+                        alt="Replit"
+                      />
+                    </a>
+                  </div>
+                  <div className="w-[75%] md:w-[45%] logo">
                     <a
                       href="https://replit.com"
                       target="_blank"
@@ -168,6 +179,28 @@ function SponsorSection() {
                       <img
                         src="https://i.ibb.co/vJMw1Jb/replit-logo.png"
                         alt="Replit"
+                      />
+                    </a>
+                  </div>
+                  {/* <div></div> */}
+                </div>
+              </div>
+
+              <div className="space-y-4 md:space-y-12 px-8 pt-8">
+                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                  SAVINGS PARTNER
+                </div>
+                <div className="px-4  grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
+                  <div></div>
+                  <div className="w-[85%] md:w-[] logo">
+                    <a
+                      href="https://www.grabon.in/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/7/71/GrabOn_-_Official_Logo.png"
+                        alt="GrabOn"
                       />
                     </a>
                   </div>
