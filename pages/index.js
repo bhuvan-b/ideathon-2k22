@@ -10,6 +10,7 @@ import Footer from "../components/Footer/Footer";
 import Timeline from "../components/Time/Timeline";
 import NavBar from "../components/NavBar.jsx";
 import EventShelf from "../components/EventShelf/EventShelf";
+import Finalists from "../components/Finalists";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
           <EventShelf />
           <Timeline />
           {/* <SpeakerSection /> */}
+          <Finalists />
           <FaqSection />
           <SponsorSection />
           <Footer />
