@@ -42,18 +42,18 @@ function NavBar() {
                 </Link>
               </div>
               <div className="hidden lg:block font-gilroyBold text-[2rem] tracking-wider">
-                <div className="flex items-baseline mt-2 space-x-4 lg:space-x-8 text-[10px] lg:text-[14px] xl:text-[16px]">
+                <div className="flex items-baseline mt-2 space-x-4 lg:space-x-4 xl:space-x-8 text-[10px] lg:text-[14px] xl:text-[16px]">
                   <Link href="/">
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       HOME
                     </a>
                   </Link>
                   {/* <Link href="/#about"> */}
-                  <ScrollLink to="about" spy={true} smooth={true}>
+                  {/* <ScrollLink to="about" spy={true} smooth={true}>
                     <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       ABOUT
                     </div>
-                  </ScrollLink>
+                  </ScrollLink> */}
                   {/* </Link> */}
 
                   {/* <Link href="/events">
@@ -80,9 +80,7 @@ function NavBar() {
                     <a className={`${styles.navLink} ${styles.navLinkLtr}`}>
                       RULEBOOK
                     </a>
-                  </Link> */}
-
-        
+                  </Link> */}        
 
                   {/* <Link href=""> */}
                   <ScrollLink to="timeline" spy={true} smooth={true}>
@@ -95,6 +93,12 @@ function NavBar() {
                   {/* <a href="/#speakers" className={`${styles.navLink} ${styles.navLinkLtr}`}>
 										SPEAKERS
 									</a> */}
+
+                  <Link href="/finalists">
+                  <div className={`${styles.navLink} ${styles.navLinkLtr}`}>
+                      FINALISTS
+                    </div>
+                    </Link>
 
                   {/* <Link href="/#faqs"> */}
                   <ScrollLink to="faqs" spy={true} smooth={true}>
@@ -209,11 +213,11 @@ function NavBar() {
                 </Link>
 
                 {/* <Link href="/#about"> */}
-                <ScrollLink to="about" spy={true} smooth={true}>
+                {/* <ScrollLink to="about" spy={true} smooth={true}>
                   <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
                     ABOUT
                   </div>
-                </ScrollLink>
+                </ScrollLink> */}
                 {/* </Link> */}
 
                 {/* <ScrollLink to="events" spy={true} smooth={true}>
@@ -235,6 +239,12 @@ function NavBar() {
                     TIMELINE
                   </div>
                 </ScrollLink>
+                <Link href="/finalists">
+                <div className="font-bold hover:bg-[#c79f82] text-[#432d1d] block px-3 py-2 rounded-md text-base">
+                    FINALISTS
+                  </div>
+                  </Link>
+
                 {/* </Link> */}
                 {/* <Link href="/#faqs"> */}
                 <ScrollLink to="faqs" spy={true} smooth={true}>
