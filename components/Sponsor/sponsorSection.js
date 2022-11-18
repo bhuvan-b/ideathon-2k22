@@ -112,6 +112,31 @@ function SponsorSection() {
                 </div>
               </div>
 
+              <div className="space-y-8 px-8 pt-4">
+                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                  SILVER
+                </div>
+                <div className="px-4 grid md:grid-cols-3 place-items-center space-y-8 md:space-y-0">
+                  <div></div>
+
+                  <div className="w-[40%] pt-0 md:pt-4 md:w-[] logo">
+                    <a
+                      href="https://risewithrise.com/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.imgur.com/Iobu0HJ.png"
+                        alt="Solana"
+                        width={900}
+                      />
+                    </a>
+                  </div>
+
+                  <div></div>
+                </div>
+              </div>
+
               <div className="space-y-4 md:space-y-12 px-8 pt-12">
                 <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
                   ONLINE MEDIA PARTNER
@@ -197,8 +222,36 @@ function SponsorSection() {
                   <div className="w-[55%] md:w-[25%] logo">
                     <img
                       src="https://i.ibb.co/s98shLL/1946-The-Waffles-Logo-Design-Sept22-Final.png"
-                      alt="Taskade"
+                      alt="The Waffler"
                     />
+                  </div>
+                </div>
+              </div>
+
+              <div className="space-y-8 px-8 pt-4">
+                <div className="subhead4 text-3xl md:text-4xl font-Montserrat font-bold">
+                  CREDENTIAL PARTNER
+                </div>
+                <div className="pt-8 px-4 flex flex-col md:flex-row justify-center items-center space-x-0 md:space-x-24 space-y-8 md:space-y-0">
+                  {/* <div className="w-[55%] md:w-[25%] logo">
+                    <a href="https://interviewbuddy.in/" target="_blank">
+                      <img
+                        src="https://i.ibb.co/Tg6Mn5K/interviewbuddy.png"
+                        alt="InterviewBuddy"
+                      />
+                    </a>
+                  </div> */}
+                  <div className="w-[85%] md:w-[26%] logo">
+                    <a
+                      href="https://www.truscholar.io"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src="https://i.imgur.com/6qZ2Y7h.png"
+                        alt="TruScholar"
+                      />
+                    </a>
                   </div>
                 </div>
               </div>
